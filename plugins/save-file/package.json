@@ -1,0 +1,16 @@
+{
+  "name": "kaloriku-save-file",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plugin Capacitor: simpan file lewat file manager Android (Storage Access Framework).",
+  "main": "index.js",
+  "files": ["android/", "index.js"],
+  "capacitor": {
+    "android": {
+      "src": "android"
+    }
+  },
+  "peerDependencies": {
+    "@capacitor/core": ">=7.0.0"
+  }
+}
